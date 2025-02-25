@@ -9,10 +9,7 @@ import {
   faPlus,
   faBan,
   faEye,
-  faPrint,
-  faReceipt,
-  faAngleLeft,
-  faAngleRight,
+
 } from "@fortawesome/free-solid-svg-icons";
 import { Button, Dropdown, Modal } from "react-bootstrap";
 import { Link, useNavigate } from "react-router-dom";
@@ -40,7 +37,7 @@ function CustomTable({
   warehouse,
   ModalclassName,
   FooterClassName,
-  apiEndpoint, // New prop for the API endpoint
+  apiEndpoint, 
 }) {
   const [rows, setRows] = useState(data);
   const [filteredRows, setFilteredRows] = useState(data);

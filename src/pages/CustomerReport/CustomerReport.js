@@ -2,8 +2,7 @@ import { useEffect, useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import SelectComponent from "../../components/SelectComponent";
 import Title from "../../components/title";
-import { faReceipt, faEye, faXmark , faEdit,  faExclamationCircle ,  
-  faTrash } from "@fortawesome/free-solid-svg-icons";
+import { faReceipt, faEye, faXmark , faEdit } from "@fortawesome/free-solid-svg-icons";
 import { Modal, Button, Form } from "react-bootstrap";
 import {
   faChevronLeft,
