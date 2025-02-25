@@ -1,0 +1,126 @@
+.ReceiptContainer {
+  width: 70%;
+  margin: auto;
+  direction: rtl;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 5%;
+  margin-top: 2%;
+}
+
+.ReceiptTabelCon {
+  width: 65%;
+  margin: auto;
+  margin-top: 1%;
+  direction: rtl;
+}
+
+
+
+.receiptTabel-tbody td {
+  padding: 1%;
+}
+
+.signatureCon {
+  display: flex;
+  direction: rtl;
+  width: 70%;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2%;
+  gap: 10%;
+}
+
+.signatureCon1 {
+  width: 30%;
+  text-align: center;
+}
+
+.barCode {
+  width: 20%;
+  padding: 9px;
+}
+
+.signaturebuttonCon {
+  width: 60%;
+  margin: auto;
+  text-align: center;
+}
+
+.signaturebutton {
+  background: rgba(163, 204, 254, 1) !important;
+  color: black !important;
+  border: none !important;
+  width: 20% !important;
+  padding: 1% !important;
+  font-weight: 700 !important;
+  transition: 0.5s;
+}
+
+.signaturebutton:hover {
+  background: #c9e1ff !important;
+}
+
+@media (max-width: 768px) {
+  .ReceiptContainer {
+    width: 90%;
+    gap: 20px;
+  }
+
+  .signatureCon {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .signatureCon1 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .ReceiptTabelCon {
+    width: 90%;
+  }
+
+  .receiptTabel {
+    font-size: 14px;
+  }
+
+  .signaturebutton {
+    width: 40% !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .ReceiptContainer {
+    width: 100%;
+    gap: 15px;
+  }
+
+  .ReceiptTabelCon {
+    width: 100%;
+  }
+
+  .signatureCon {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .signatureCon1 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .receiptTabel {
+    font-size: 12px;
+  }
+
+  .signaturebutton {
+    width: 50%;
+  }
+}

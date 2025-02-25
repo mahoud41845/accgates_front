@@ -1,0 +1,60 @@
+.AppRegister-container {
+    margin-top: 28PX;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.registrarTitle{
+    margin-top:25px;
+}
+
+.regster-form{
+    width: 100%;
+  margin: auto;
+}
+
+.regstrer-inputs{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    gap: 10px;
+    direction: rtl;
+}
+ .link-btn{
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+  margin-top: 23px;
+ }
+
+
+
+
+@media (max-width: 768px) {
+
+    .jobTitle-inputs {
+      width: 100%;
+    }
+  
+    .jobtitle-container {
+      width: 100%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+  }
+
+
+  .appregBtn { 
+    /* background: black !important; */
+  }

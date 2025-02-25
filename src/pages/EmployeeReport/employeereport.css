@@ -1,0 +1,62 @@
+.Employeereport{width: 80%; margin: auto;  margin-top: 100px;}
+
+ .Employeereport-form{width: 80%;margin: auto; display: flex; margin-bottom: 20px; gap: 10px;}
+
+ .btn-Employeereport-form{  margin-top: 40px;}
+
+ .toggel-employee{display: flex; justify-content: center; align-items: center;}
+
+ .form-employee1{display: flex; gap: 150px; width: 85%; }
+
+.form-employee2{ display: flex; gap: 20px; width: 100%;}
+
+.account-type{width: 40%; display: flex; gap: 50px;}
+
+.account-type1 label{width: 60px;}
+
+.account-type2 label{width: 36px;}
+
+
+
+
+
+ /* modal */
+ .modael-Employeereport .modal-dialog {
+     max-width: 1200px !important;
+     display: flex !important;
+     justify-content: center !important;
+     align-items: center !important;
+
+ }
+
+ .modael-Employeereport .modal-content {
+     height: 900px !important;
+
+
+
+ }
+
+ .modael-Employeereport .modal-header {
+     justify-content: space-between !important;
+     direction: var(--translate-direction) !important;
+
+ }
+
+ .modael-Employeereport .modal-body {
+     direction: var(--revtranslate-direction) !important;
+      width: 100%;
+        display: flex !important;
+             align-items: center !important;
+            flex-direction: column;
+            margin: auto;
+   
+
+
+
+ }
+
+ .modael-Employeereport .modal-footer {
+     display: flex !important;
+     justify-content: center !important;
+
+ }

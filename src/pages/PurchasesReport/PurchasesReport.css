@@ -1,0 +1,76 @@
+.PurchasesReport {
+   margin: auto;
+   width: 80%;
+   margin-top: 100px;
+   direction: var(--translate-direction);
+}
+
+.radio-report {
+    display: flex
+;
+    margin-bottom: 25px;
+     direction: var(--translate-direction);
+    width: 400px;
+    justify-content: space-between;
+    gap: 9px;
+    flex-direction: column;
+}
+
+ 
+
+.select-report {
+   display: inline;
+   direction: var(--translate-direction) !important;
+   margin-top: 50px;
+
+}
+
+.table-rportconyaner {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   direction: var(--translate-direction);
+}
+
+.table-rport {
+   width: 80%;
+   margin: auto;
+   text-align: center;
+
+}
+
+
+.table-rport th {
+   background: var(--vouchertable-background);
+   color: var(--text-color);
+   border-bottom: var(--vouchertable-border);
+   border-top: var(--vouchertable-border);
+}
+
+.table-rport td {
+   padding: 20px;
+   text-align: center;
+   background: var(--paymentTable--background);
+}
+
+.formreport-prush{
+   display: flex;
+   gap: 50px;
+}
+
+.radio-form-report{
+   display: flex;
+}
+.svws{
+   display: flex;
+}
+
+ 
+.prepolable1 label {
+   width: 1000px !important;
+}
+.prepolable2 label {
+   width: 100px !important;
+}
+
+ 

@@ -1,0 +1,39 @@
+.attendance-and-departure-report{  direction: var(--translate-direction);
+}
+
+.daysandval{display: flex; gap: 20px;}
+/* modal */
+.modael-deductions-and-bonuses .modal-dialog {
+    max-width: 600px !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+     
+  }
+.modael-deductions-and-bonuses .modal-content{
+    height: 720px !important;
+    
+   
+  
+  }
+  
+   .modael-deductions-and-bonuses .modal-header{
+    justify-content: space-between !important;
+    direction: var(--translate-direction) !important;
+  
+  }
+  
+   .modael-deductions-and-bonuses .modal-body{
+     direction: var(--revtranslate-direction) !important;
+     width: 70%;
+     margin: auto;
+     
+    
+    
+  }
+  
+  .modael-deductions-and-bonuses .modal-footer{
+      display: flex !important;
+    justify-content: center !important;
+  
+  }

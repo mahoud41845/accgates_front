@@ -1,0 +1,60 @@
+:root {
+  --sidebar-right: 0;
+  --sidebar-left: none;
+  --sidebar-closed-right: -300px;
+  --sidebar-closed-left: none;
+  --pagecontainer-float: left;
+  --sidebtn-scale: 1;
+  --choices-align: right;
+  --revchoices-align: left;
+  --choices-direction: unset;
+  --translate-direction: rtl;
+  --revtranslate-direction: ltr;
+  --nav-hover-right: 10px ;
+  --nav-hover-left:none;
+  --arabicsidebarcarev:50px;
+  --englishsidebarcarev:0
+}
+
+.english {
+  --nav-direction: ltr;
+  --navbar-float: left;
+  --flex-display: flex;
+  --flex-direction: row-reverse;
+  --sidebar-right: none;
+  --sidebar-left: 0;
+  --sidebar-closed-right: none;
+  --sidebar-closed-left: -300px;
+  --pagecontainer-float: right;
+  --sidebtn-scale: -1;
+  --choices-align: left;
+  --choices-direction: rtl;
+  --translate-direction: ltr;
+  --revtranslate-direction: rtl;
+  --revchoices-align: right;
+  --nav-hover-right: none;
+  --nav-hover-left: 10px;
+  --englishsidebarcarev:50px;
+  --arabicsidebarcarev:0;
+}
+
+.transdirec {
+  direction: var(--translate-direction) !important;
+}
+
+
+
+
+
+.language-toggle {
+  position: relative;
+  cursor: pointer;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  transition: all 0.3s ease;
+}
+
+
+
+

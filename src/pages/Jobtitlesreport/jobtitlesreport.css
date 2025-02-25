@@ -1,0 +1,11 @@
+ .jobtitlesreport{
+    width: 80%;
+    margin: auto;
+    margin-top: 100px;
+    direction: var(--translate-direction);
+
+ }
+
+ .btn-Jobtitlesreport-form{width: 50%; margin: auto; margin-bottom: 35px;}
+
+ .table-Jobtitlesreport{width: 50%;}

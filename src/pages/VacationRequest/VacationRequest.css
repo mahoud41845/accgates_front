@@ -1,0 +1,40 @@
+.vacationRequest-container {
+  width: 80%;
+  margin: auto;
+}
+
+.vaca-times {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  gap: 5%;
+  margin-bottom: 5%;
+}
+
+.vacationInputs {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-top: 7%;
+  direction: rtl !important ;
+
+}
+
+@media (max-width: 768px) {
+  .vaca-times {
+    flex-direction: column;
+  }
+
+  .vacationInputs {
+    width: 100%;
+  }
+
+  .vacationRequest-container {
+    width: 100%;
+  }
+}

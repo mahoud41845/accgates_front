@@ -1,0 +1,41 @@
+.investigation-modalbody{display: flex;  gap: 30px;
+align-items: center; }
+
+
+
+
+/* modal */
+.modael-investigation .modal-dialog {
+    max-width: 800px !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+     
+  }
+.modael-investigation .modal-content{
+    height: 550px !important;
+    
+   
+  
+  }
+  
+   .modael-investigation .modal-header{
+    justify-content: space-between !important;
+    direction: var(--translate-direction) !important;
+  
+  }
+  
+   .modael-investigation .modal-body{
+     direction: var(--revtranslate-direction) !important;
+     width: 80%;
+     margin: auto;
+      
+    
+    
+  }
+  
+  .modael-investigation .modal-footer{
+      display: flex !important;
+    justify-content: center !important;
+  
+  }

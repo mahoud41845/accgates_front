@@ -1,0 +1,85 @@
+.CaseDetailsChart {
+  width: 80%;
+  margin: auto;
+}
+
+.payDetails {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 50px;
+}
+
+.payDetailssec {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.paynums {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.payIcon {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.secpayIcon1,
+.secpayIcon2 {
+  width: 45px;
+  height: 45px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.secpayIcon2 {
+  background:  #3d689c;
+}
+
+.secpayIcon1 {
+  background: #3d689c;
+}
+
+.payIconchart1 {
+  color: white;
+}
+.payIconchart2 {
+  color: white;
+}
+
+.paydesc {
+  font-weight: 500;
+  color: var(--text-color);
+}
+
+.payDetailssecSubmit {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 45px;
+}
+
+.chartButton {
+  width: 200px;
+}
+
+.payIcon1 {
+  border: 10px solid #a3ccfe;
+}
+
+.payIcon2 {
+  border: 10px solid #284160;
+}

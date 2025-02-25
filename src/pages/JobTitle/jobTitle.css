@@ -1,0 +1,51 @@
+.jobtitle-container {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.jobTitle-form {
+  width: 100%;
+  margin: auto;
+}
+.jobTitle-inputs {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+  gap: 10px;
+  direction: rtl;
+}
+
+.jobtitle-submit {
+  width: 150px;
+  padding: 10px;
+  border: none;
+  border-radius: 15px;
+  font-weight: 700;
+  background: #a3ccfe;
+  transition: 0.5s;
+  margin-top: 2%;
+}
+
+
+
+@media (max-width: 768px) {
+
+    .jobTitle-inputs {
+      width: 100%;
+    }
+  
+    .jobtitle-container {
+      width: 100%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+  }

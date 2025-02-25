@@ -1,0 +1,43 @@
+.attendance-and-departure-report{width: 80%; margin: auto; margin-top: 100px;}
+
+.attendance-and-departure-report-form{display: flex; gap: 20px; width: 80%; margin: auto;}
+
+.btn-attendance-and-departure-report-form{margin-top: 43px;}
+
+
+
+/* modal */
+.modael-deductions .modal-dialog {
+    max-width: 600px !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+     
+  }
+.modael-deductions .modal-content{
+    height: 600px !important;
+    
+   
+  
+  }
+  
+   .modael-deductions .modal-header{
+    justify-content: space-between !important;
+    direction: var(--translate-direction) !important;
+  
+  }
+  
+   .modael-deductions .modal-body{
+     direction: var(--revtranslate-direction) !important;
+     width: 70%;
+     margin: auto;
+     
+    
+    
+  }
+  
+  .modael-deductions .modal-footer{
+      display: flex !important;
+    justify-content: center !important;
+  
+  }

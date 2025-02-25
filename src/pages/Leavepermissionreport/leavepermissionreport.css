@@ -1,0 +1,71 @@
+.leave-and-permission-report{width: 80%;
+     margin: auto; 
+    margin-top: 100px; 
+    direction: var(--translate-direction) !important;
+}
+
+.leave-and-permission-form{ 
+    width: 80%; 
+    margin: auto;
+    margin-bottom: 15px;
+    display: flex;
+    gap: 20px;
+}
+
+.btn-leave-and-permission-form{margin-top: 43px; }
+
+ 
+
+
+
+
+
+
+
+/* modal */
+.Requesttype-form{display: flex;     
+    direction: var(--translate-direction) !important;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.Requesttype-form span{width: 100px; }
+
+.Requesttype{display: flex; width: 5%;}
+
+.date-Leavepermissionreport{display: flex; gap: 10px; justify-content: space-between;}
+
+.modael-leaves .modal-dialog {
+    max-width: 600px !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+     
+  }
+  
+   .modael-leaves .modal-content{
+    height: 750px !important;
+    
+   
+  
+  }
+  
+   .modael-leaves .modal-header{
+    justify-content: space-between !important;
+    direction: var(--translate-direction) !important;
+  
+  }
+  
+   .modael-leaves .modal-body{
+     direction: var(--revtranslate-direction) !important;
+     width: 70%;
+     margin: auto;
+     
+    
+    
+  }
+  
+  .modael-leaves .modal-footer{
+      display: flex !important;
+    justify-content: center !important;
+  
+  }

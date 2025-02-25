@@ -1,0 +1,87 @@
+/* Base Styling for All Screens */
+.caseDataImageCon {
+  background-image: url("https://s3-alpha-sig.figma.com/img/9d12/d7b5/520acca11ea4beeb31adfc3f8e135a80?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=G7Jrm4sVt4M4jmsRieAWG2x-Y3JWLKm5EUhS5NVNO8oH7qQXpDinkP4mdpZy21LHHJvfUGupQevT05ocuwHgJR9ecOUezTEoEq3BLcBzjUMagYA~vJsQkmhVAH9voOfRk7ze625MkSQp~NEWbt~nUuydS7-abQFcMVtpaqzZ0bf4RCh0a4O7MIeP5IRd0afxrpuzTikW9n4kmJT0n4poyTb72T3OivzeO~l3RiODZkH7tl6jw-TrfashIFl8c~QKDZi1rCP4RldJxml1~GMwD6VbjcnuHUDMoaNvt0Q-C2OlgFrX-sePWaSqCbrXV8RwohDrMSdhR8u9ViHW-sNjBA__");
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+  width: 100%;
+  margin-top: 2%;
+}
+
+.case-info {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  gap: 1%;
+  margin-top: 2%;
+  direction: rtl;
+  flex-wrap: wrap;
+}
+
+.uploadlogo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.caseData-button {
+  background: rgba(163, 204, 254, 1) !important;
+  border: none !important;
+  color: black !important;
+  width: 11%;
+  border-radius: 15px !important;
+  transition: 0.5s;
+  height: 43px;
+}
+
+.caseData-button:hover {
+  background: #c9e1ff !important;
+}
+
+@media (max-width: 768px) {
+  .case-info {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .case-info > div {
+    width: 55% !important;
+    margin-bottom: 10px;
+  }
+
+  .caseData-button {
+    width: 50%;
+    margin-top: 20px;
+  }
+
+  .caseDataImageCon {
+    height: 150px;
+  }
+}
+
+@media (max-width: 480px) {
+  .case-info {
+    gap: 5%;
+  }
+
+  .case-info > div {
+    width: 55% !important;
+    margin-bottom: 10px;
+  }
+
+  .uploadlogo {
+    text-align: center;
+    padding: 10px;
+  }
+
+  .caseData-button {
+    height: 50px;
+    font-size: 14px;
+  }
+
+  .caseDataImageCon {
+    height: 120px;
+  }
+}

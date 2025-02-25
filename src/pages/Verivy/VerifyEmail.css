@@ -1,0 +1,33 @@
+.VerifyEmail-container{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.VerifyEmailTitle{
+    margin-top: 20px;
+
+}
+
+.VerifyEmail-form{
+  width: 100%;
+  margin: auto;
+}
+
+.VerifyEmail-inputs{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    gap: 10px;
+    direction: rtl;
+}
+
+
+
